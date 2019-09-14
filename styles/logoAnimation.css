@@ -1,0 +1,680 @@
+/* logo style */
+
+svg.logoAnimation{
+  font-family: Corbel;
+  position: absolute;
+  width: 80%;
+  top:20%;
+  left:7%;
+  transform-origin: top left;
+  animation: moveLogoAnimationToNav 7.2s;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+  z-index: 21;
+  max-width: 100%;
+}
+
+/* move logo from bottom to the nav bar */
+
+@keyframes moveLogoAnimationToNav {
+  70%{
+    top:20%;
+    left:7%;
+  transform:  scale(1);
+  max-width: 90%;
+
+  }
+  100%{
+    top:0px;
+    left: 0px;
+    max-width: 800px;
+    transform:  scale(.4);
+  }
+}
+
+/* logo first level animation (first 11 squre from the center ) */
+
+.blueSqure.firstLevel_1 {
+  animation: blueSqure_firstLevel_1 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_2 {
+  animation: blueSqure_firstLevel_2 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_3 {
+  animation: blueSqure_firstLevel_3 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_4 {
+  animation: blueSqure_firstLevel_4 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_5 {
+  animation: blueSqure_firstLevel_5 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_6 {
+  animation: blueSqure_firstLevel_6 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_7 {
+  animation: blueSqure_firstLevel_7 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_8 {
+  animation: blueSqure_firstLevel_8 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_9 {
+  animation: blueSqure_firstLevel_9 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_10 {
+  animation: blueSqure_firstLevel_10 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.firstLevel_11 {
+  animation: blueSqure_firstLevel_11 3s infinite alternate;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+
+/* make the animation form the all first level squres */
+
+@keyframes blueSqure_firstLevel_1 {
+  80%{
+    transform: translate(27.76136658342898px,-17.84114697603472px);
+  }
+  20%{
+    transform: translate(33px,1.4210854715202004e-14px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_2 {
+  80%{
+    transform: translate(13.70869542906226px,-30.017855846699106px);
+  }
+  20%{
+    transform: translate(27.76136658342898px,-17.84114697603472px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_3 {
+  80%{
+    transform: translate(-4.696389663018408px,-32.664107582070784px);
+  }
+  20%{
+    transform: translate(13.70869542906226px,-30.017855846699106px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_4 {
+  80%{
+    transform: translate(-21.610404220194397px,-24.93973595369053px);
+  }
+  20%{
+    transform: translate(-4.696389663018408px,-32.664107582070784px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_5 {
+  80%{
+    transform: translate(-31.663268129278407px,-9.297174375767185px);
+  }
+  20%{
+    transform: translate(-21.610404220194397px,-24.93973595369053px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_6 {
+  80%{
+    transform: translate(-31.663268129278407px,9.297174375767185px);
+  }
+  20%{
+    transform: translate(-31.663268129278407px,-9.297174375767185px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_7 {
+  80%{
+    transform: translate(-21.61040422019441px,24.93973595369053px);
+  }
+  20%{
+    transform: translate(-31.663268129278407px,9.297174375767185px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_8 {
+  80%{
+    transform: translate(-4.696389663018408px,32.664107582070784px);
+  }
+  20%{
+    transform: translate(-21.61040422019441px,24.93973595369053px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_9 {
+  80%{
+    transform: translate(13.708695429062232px,30.01785584669912px);
+  }
+  20%{
+    transform: translate(-4.696389663018408px,32.664107582070784px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_10 {
+  80%{
+    transform: translate(27.76136658342898px,17.841146976034736px);
+  }
+  20%{
+    transform: translate(13.708695429062232px,30.01785584669912px);  
+  }
+}
+
+@keyframes blueSqure_firstLevel_11 {
+  80%{
+    transform: translate(33px,1.4210854715202004e-14px);
+  }
+  20%{
+    transform: translate(27.76136658342898px,17.841146976034736px);  
+  }
+}
+
+
+/* secondLevel ---------------------------------------------------------------------------------------------------------------------*/
+
+/* logo second level animation (second 11 squre from the center ) */
+
+.blueSqure.secondLevel_1 {
+  animation: blueSqure_secondLevel_1 3s,blueSqure_secondLevelColor 3s infinite alternate;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_2 {
+  animation: blueSqure_secondLevel_2 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_3 {
+  animation: blueSqure_secondLevel_3 3s,blueSqure_secondLevelColor 3s infinite alternate;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_4 {
+  animation: blueSqure_secondLevel_4 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_5 {
+  animation: blueSqure_secondLevel_5 3s,blueSqure_secondLevelColor 3s infinite alternate;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_6 {
+  animation: blueSqure_secondLevel_6 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_7 {
+  animation: blueSqure_secondLevel_7 3s,blueSqure_secondLevelColor 3s infinite alternate;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_8 {
+  animation: blueSqure_secondLevel_8 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_9 {
+  animation: blueSqure_secondLevel_9 3s,blueSqure_secondLevelColor 3s infinite alternate;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_10 {
+  animation: blueSqure_secondLevel_10 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.secondLevel_11 {
+  animation: blueSqure_secondLevel_11 3s,blueSqure_secondLevelColor 3s infinite alternate-reverse;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+
+/* set the animation for the second level of squres  */
+
+/* set color changable animation for 6 of 11 squres */
+
+@keyframes blueSqure_secondLevelColor {
+  0%{
+    fill: rgb(0, 128, 192);
+    stroke:rgb(0, 128, 192);
+  }
+  100%{
+    fill: rgb(0, 112, 94);
+    stroke:rgb(0, 112, 94);
+  }
+}
+
+@keyframes blueSqure_secondLevel_1 {
+  to{
+    transform: translate(49.89363462795387px,-14.650092955754346px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_2 {
+  to{
+    transform: translate(34.05275816515481px,-39.29897786642144px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_3 {
+  to{
+    transform: translate(7.400371590210824px,-51.4707149778085px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_4 {
+  to{
+    transform: translate(-21.60158067609808px,-47.30086375843496px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_5 {
+  to{
+    transform: translate(-43.745183707221415px,-28.11332250769108px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_6 {
+  to{
+    transform: translate(-52px,0px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_7 {
+  to{
+    transform: translate(-43.74518370722142px,28.113322507691066px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_8 {
+  to{
+    transform: translate(-21.601580676098138px,47.30086375843493px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_9 {
+  to{
+    transform: translate(7.40037159021081px,51.47071497780851px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_10 {
+  to{
+    transform: translate(34.052758165154785px,39.29897786642147px);
+  }
+}
+
+@keyframes blueSqure_secondLevel_11 {
+  to{
+    transform: translate(49.89363462795387px,14.650092955754346px);
+  }
+}
+
+
+
+/* thirdLevel ---------------------------------------------------------------------------------------------------------------------*/
+
+/* logo third level animation (third 11 squre from the center ) */
+
+.blueSqure.thirdLevel_1 {
+  animation: blueSqure_thirdLevel_1 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+
+}
+.blueSqure.thirdLevel_2 {
+  animation: blueSqure_thirdLevel_2 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+
+.blueSqure.thirdLevel_3 {
+  animation: blueSqure_thirdLevel_3 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_4 {
+  animation: blueSqure_thirdLevel_4 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_5 {
+  animation: blueSqure_thirdLevel_5 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_6 {
+  animation: blueSqure_thirdLevel_6 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_7 {
+  animation: blueSqure_thirdLevel_7 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_8 {
+  animation: blueSqure_thirdLevel_8 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_9 {
+  animation: blueSqure_thirdLevel_9 1.8s;
+  animation-fill-mode: forwards;
+    position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_10 {
+  animation: blueSqure_thirdLevel_10 1.8s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+.blueSqure.thirdLevel_11 {
+  animation: blueSqure_thirdLevel_11 1.8s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+
+}
+
+/* set the animation for the third squres level  */
+
+@keyframes blueSqure_thirdLevel_1 {
+  to{
+    transform: translate(54.68147963402677px,-35.14165313461385px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_2 {
+  to{
+    transform: translate(27.001975845122615px,-59.12607969804369px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_3 {
+  to{
+    transform: translate(-9.250464487763537px,-64.33839372226062px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_4 {
+  to{
+    transform: translate(-42.565947706443524px,-49.12372233302679px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_5 {
+  to{
+    transform: translate(-62.36704328494232px,-18.31261619469295px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_6 {
+  to{
+    transform: translate(-62.367043284942326px,18.312616194692936px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_7 {
+  to{
+    transform: translate(-42.56594770644354px,49.12372233302676px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_8 {
+  to{
+    transform: translate(-9.250464487763537px,64.3383937222606px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_9 {
+  to{
+    transform: translate(27.001975845122587px,59.1260796980437px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_10 {
+  to{
+    transform: translate(54.68147963402674px,35.141653134613875px);
+  }
+}
+
+@keyframes blueSqure_thirdLevel_11 {
+  to{
+    transform: translate(65px,1.4210854715202004e-14px);
+  }
+}
+/* Text ---------------------------------------------------------------------------------------------------------------------*/
+
+
+/* set animation for all char in logo  */
+
+.svgLogoText.firstC {
+  position: absolute !important;
+}
+
+.svgLogoText.secondC {
+  animation: logoTextSecondC 2s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes logoTextSecondC {
+  to{
+    transform: translate(200px,0px);
+    opacity: 1;
+  }
+}
+
+.svgLogoText.O {
+  animation: svgLogoTextO 1.1s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextO {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.D {
+  animation: svgLogoTextD 1.9s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextD {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.A {
+  animation: svgLogoTextA 2.6s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextA {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.E {
+  animation: svgLogoTextE 4s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextE {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.N {
+  animation: svgLogoTextN 4.5s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextN {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.T {
+  animation: svgLogoTextT 5s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextT {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.secondE {
+  animation: svgLogoTextSecondE 5s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextSecondE {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.svgLogoText.R {
+  animation: svgLogoTextR 5s;
+  animation-fill-mode: forwards;
+  position: absolute !important;
+  filter: blur(0.2px);
+  opacity: 0;
+}
+
+@keyframes svgLogoTextR {
+  40%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

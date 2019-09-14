@@ -1,0 +1,69 @@
+@import "./styles/navbar.css";
+@import "./styles/logoAnimation.css";
+
+@font-face {
+  font-family: 'Corbel';
+  src: url('./fonts/CORBEL.TTF');
+}
+
+:root {
+  --logoContainer: 0;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  overflow: hidden;
+}
+
+section.page-content{
+  position: relative;
+  top: 40%;
+  height: 100%;
+  width: 100%;
+}
+
+section main{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section main section{
+  background-color:#daf0ff;
+  width: 80%;
+  padding: 20px;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+section.page-content{
+  animation: movePageContent 7.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: relative;
+  top:20%;
+} 
+
+
+
+@keyframes movePageContent {
+  70%{
+    opacity: 0;
+    top:40%;
+    width: 100%;
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0%,0%);
+    top:0;
+  }
+}
+
+

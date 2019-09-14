@@ -1,0 +1,59 @@
+nav.navbar{
+  background-color: rgb(218, 240, 255);
+  width: 100%;
+  height: 30%;
+  max-height: 105px;
+  border-bottom: 5px #1761b0  solid;
+}
+
+
+nav.navbar ul li{
+  height: auto;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav.navbar ul li{
+    height: auto;
+    font-size: 16px;
+  }
+}
+
+nav.navbar ul li:not(:first-child){
+  align-self: center;
+}
+
+nav.navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: unset;
+  margin: 0;
+  height: auto;
+  height: 100%;
+}
+
+.logo-container{
+  background-color: white;
+  position: absolute;
+  transform-origin: top left;
+  animation: moveLogoContainer 7.2s;
+  animation-fill-mode: forwards;
+  height: 30%;
+  width: 100%;
+  left: var(--logoContainer);
+  z-index: -1;
+}
+
+
+@keyframes moveLogoContainer {
+  70%{
+    transform: scale(1);
+    left: var(--logoContainer);
+  }
+  100%{
+    left: 0;
+    transform: scale(.4);
+    width: 80%;
+  }
+}
